@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>форма Трищук Н.</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSQYJQQ0swGN4mYVlIGIjOLhutdRXw1cJQV3Q&usqp=CAU" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Molle:ital@1&family=Mr+Bedfort&family=Petit+Formal+Script&display=swap" rel="stylesheet">
+
+  <style>
+    .main {
+      background-color: #b7fcb1;
+      width: 60%;
+      margin: 0 auto;
+      padding: 20px;
+     }
+    h1 {
+      text-align: center;
+    }
+     label {
+    display: inline-block;
+    width: 100px;
+   }
+   .sec {
+    margin: 20px;
+   }
+   button {
+    margin-right: 50px;
+    font-family: 'Mr Bedfort', cursive;
+   }
+
+
+  </style>
+  </head>
+    <body style="background-color: #f0f26b">
+        <h1>Опрос</h1>
+        <div class="main">
+        <form>
+           <div class="sec">
+             <label for="name"><b>ФИО</b></label>
+             <input type="text" name="name" placeholder="Ваше ФИО" required>
+           </div>
+           <h2>К чему вы стремитесь в жизни?</h2>
+           <div class="sec" >
+             <input type="checkbox" name="option1"> Духовное развитие <br>
+             <input type="checkbox" name="option2"> Отношения/друзья <br>
+             <input type="checkbox" name="option3"> Хобби <br>
+             <input type="checkbox" name="option4"> Карьера <br>
+           </div>
+           
+           <div class="sec">
+             <label for="text"><b>Доп. инфо</b></label>
+             <input type="textarea" name="text" placeholder="Расскажите про себя">
+           </div>
+           <div class="sec">
+             <label for="kalendar"><b>Дата опроса</b></label>
+             <input type="date" name="kalendar" required> 
+             </div>
+             <div class="sec">
+           <button type="submit" class="btn btn-success">Ok</button>
+           <button type="reset" class="btn btn-danger">Cancel</button>
+           </div>
+        </form>
+      </div>
+    </body>
+</html>
